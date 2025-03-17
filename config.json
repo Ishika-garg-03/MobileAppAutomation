@@ -1,0 +1,71 @@
+{
+    "device" : {
+        "platform_name": "Android",
+        "platform_version": "10",
+        "automation_name": "UiAutomator2",
+        "device_id": "R475KJT4Y5HITKKF",
+        "email": "merayassuyassu25@gmail.com"
+    },
+
+    "playstore" : {
+        "password": "bolnelagi",
+        "signin_btn" : "android.widget.Button",
+        "app_package": "com.android.vending",
+        "launch_check": "android.widget.Button",
+        "email_textbox": "new UiSelector().className(\"android.widget.TextView\").instance(4)",
+        "enter_email": "new UiSelector().resourceId(\"identifierId\")",
+        "next_btn": "new UiSelector().text(\"Next\")",
+        "enter_pass": "new UiSelector().className(\"android.widget.EditText\")",
+        "agree_btn": "new UiSelector().text(\"I agree\")",
+        "accept_btn": "new UiSelector().text(\"Accept\")",
+        "signin_check": "new UiSelector().className(\"android.view.View\").instance(3)",
+        "search_icon": "new UiSelector().text(\"Search\")",
+        "search_bar": "new UiSelector().text(\"Search Apps & Games\")",
+        "search_text": "new UiSelector().className(\"android.widget.EditText\")",
+        "enter_key": "66",
+        "open_btn": "new UiSelector().text(\"Open\")",
+        "app_desc": "new UiSelector().description(\"Amazon India Shop, Pay, miniTV\nAmazon Mobile LLC\nContains ads\n\")",
+        "install_btn": "new UiSelector().text(\"Install\")",
+        "uninstall_btn": "new UiSelector().text(\"Uninstall\")"
+    },
+
+    "amazon": {
+        "password": "demo@1234",
+        "app_package": "in.amazon.mShop.android.shopping",
+        "language_selector": "new UiSelector().resourceId(\"in.amazon.mShop.android.shopping:id/choose_language\")",
+        "english": "new UiSelector().description(\"Select English\")",
+        "continue": "new UiSelector().resourceId(\"in.amazon.mShop.android.shopping:id/continue_button\")",
+        "signin_btn": "new UiSelector().resourceId(\"in.amazon.mShop.android.shopping:id/sign_in_button\")",
+        "email_textbox": "//android.widget.EditText[@resource-id=\"ap_email_login\"]",
+        "enter_email": "android.widget.EditText",
+        "continue_btn": "new UiSelector().text(\"Continue\")",
+        "password_box": "//android.widget.EditText[@resource-id=\"ap_password\"]",
+        "enter_password": "android.widget.EditText",
+        "submit_btn": "//android.widget.Button[@resource-id=\"signInSubmit\"]",
+        "login_check": "new UiSelector().resourceId(\"android:id/content\")"
+    },
+
+    "tear_down": {
+        "profile_icon": "new UiSelector().description(\"Signed in as rajveer demo merayassuyassu25@gmail.com\nAccount and settings.\")",
+        "drop_down": "new UiSelector().description(\"Expand account list.\")",
+        "manage": "new UiSelector().text(\"Manage accounts on this device\")",
+        "layout_page": "new UiSelector().className(\"android.widget.LinearLayout\").instance(8)",
+        "remove_btn": "new UiSelector().resourceId(\"com.android.settings:id/button\")",
+        "confirm_btn": "new UiSelector().resourceId(\"android:id/button1\")",
+        "settings": "com.android.settings",
+        "sender": "testreportamazon@gmail.com",
+        "receiver": "merayassuyassu25@gmail.com",
+        "app_key": "yjvk ymsk qrkl byxr"
+    },
+
+    "scenario_paths": {
+        "login_playstore": "C:\\Users\\166929\\Downloads\\PycharmProjects\\MobileAppAutomation\\tests\\features\\login_playstore.feature",
+        "install_amazon": "C:\\Users\\166929\\Downloads\\PycharmProjects\\MobileAppAutomation\\tests\\features\\install_amazon.feature",
+        "signin_amazon": "C:\\Users\\166929\\Downloads\\PycharmProjects\\MobileAppAutomation\\tests\\features\\amazon_login.feature"
+    },
+
+    "folder_paths": {
+        "root_path": "C:\\Users\\166929\\Downloads\\PycharmProjects\\MobileAppAutomation"
+    }
+}
+
