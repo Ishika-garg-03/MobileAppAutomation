@@ -12,7 +12,7 @@ This is the perfect project for those looking to automate app testing on mobile 
 - **🛍️ Amazon Sign-In**: Automates the login process to Amazon with pre-configured credentials.
 - **🛒 Add Product to Cart**: Automates browsing through various Amazon product categories and adds them to the shopping cart.
   
-With these automations, this project ensures that the critical features of the Amazon app are tested seamlessly and efficiently.
+With these automations, this project ensures that the critical features of the Amazon app are tested effectively and efficiently.
 
 ---
 
