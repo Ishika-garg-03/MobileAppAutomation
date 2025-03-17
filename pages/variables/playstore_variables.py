@@ -1,0 +1,15 @@
+from utilities.logger import config
+
+email = config.get('device', {}).get('email')
+password = config.get('playstore', {}).get('password')
+signin_btn = config.get('playstore', {}).get('signin_btn')
+appPackage = config.get('playstore', {}).get('app_package')
+launch_check = config.get('playstore', {}).get('launch_check')
+email_textbox = config.get('playstore', {}).get('email_textbox')
+enter_email = config.get('playstore', {}).get('enter_email')
+next_btn = config.get('playstore', {}).get('next_btn')
+enter_pass = config.get('playstore', {}).get('enter_pass')
+agree_btn = config.get('playstore', {}).get('agree_btn')
+accept_btn = config.get('playstore', {}).get('accept_btn')
+signin_check = config.get('playstore', {}).get('signin_check')
+button = config.get("playstore", {}).get("launch_check", {})

@@ -1,0 +1,18 @@
+from utilities.logger import config
+
+email = config.get('device',{}).get('email')
+app_package = config.get('amazon',{}).get('app_package')
+password = config.get('amazon',{}).get('password')
+language_selector=config.get('amazon',{}).get('language_selector')
+english=config.get('amazon',{}).get('english')
+continue_btn=config.get('amazon',{}).get('continue')
+signin_btn=config.get('amazon',{}).get('signin_btn')
+email_textbox=config.get('amazon',{}).get('email_textbox')
+enterEmail=config.get('amazon',{}).get('enter_email')
+continue_button=config.get('amazon',{}).get('continue_btn')
+password_box=config.get('amazon',{}).get('password_box')
+enter_password=config.get('amazon',{}).get('enter_password')
+submit_btn=config.get('amazon',{}).get('submit_btn')
+login_check=config.get('amazon',{}).get('login_check')
+previous_playstore_test = config.get("previous_test", {}).get("test_login_playstore", {})
+previous_amazon_test = config.get('previous_test', {}).get('test_search_install_amazon')
