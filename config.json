@@ -1,14 +1,14 @@
 {
     "device" : {
         "platform_name": "Android",
-        "platform_version": "10",
+        "platform_version": "android_version",
         "automation_name": "UiAutomator2",
-        "device_id": "R475KJT4Y5HITKKF",
-        "email": "merayassuyassu25@gmail.com"
+        "device_id": "your_device_id",
+        "email": "your_device_email"
     },
 
     "playstore" : {
-        "password": "bolnelagi",
+        "password": "your_email_password",
         "signin_btn" : "android.widget.Button",
         "app_package": "com.android.vending",
         "launch_check": "android.widget.Button",
@@ -30,7 +30,7 @@
     },
 
     "amazon": {
-        "password": "demo@1234",
+        "password": "your_amazon_password",
         "app_package": "in.amazon.mShop.android.shopping",
         "language_selector": "new UiSelector().resourceId(\"in.amazon.mShop.android.shopping:id/choose_language\")",
         "english": "new UiSelector().description(\"Select English\")",
@@ -53,19 +53,19 @@
         "remove_btn": "new UiSelector().resourceId(\"com.android.settings:id/button\")",
         "confirm_btn": "new UiSelector().resourceId(\"android:id/button1\")",
         "settings": "com.android.settings",
-        "sender": "testreportamazon@gmail.com",
-        "receiver": "merayassuyassu25@gmail.com",
-        "app_key": "yjvk ymsk qrkl byxr"
+        "sender": "sender_email",
+        "receiver": "receiver_email",
+        "app_key": "app_key_for_sender_email"
     },
 
     "scenario_paths": {
-        "login_playstore": "C:\\Users\\166929\\Downloads\\PycharmProjects\\MobileAppAutomation\\tests\\features\\login_playstore.feature",
-        "install_amazon": "C:\\Users\\166929\\Downloads\\PycharmProjects\\MobileAppAutomation\\tests\\features\\install_amazon.feature",
-        "signin_amazon": "C:\\Users\\166929\\Downloads\\PycharmProjects\\MobileAppAutomation\\tests\\features\\amazon_login.feature"
+        "login_playstore": "root_path\\MobileAppAutomation\\tests\\features\\login_playstore.feature",
+        "install_amazon": "root_path\\MobileAppAutomation\\tests\\features\\install_amazon.feature",
+        "signin_amazon": "root_path\\MobileAppAutomation\\tests\\features\\amazon_login.feature"
     },
 
     "folder_paths": {
-        "root_path": "C:\\Users\\166929\\Downloads\\PycharmProjects\\MobileAppAutomation"
+        "root_path": "root_path\\MobileAppAutomation"
     }
 }
 
